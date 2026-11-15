@@ -1,0 +1,12 @@
+# secrets and local state: never commit
+.env
+.env.*
+*.pem
+*.key
+*.sqlite
+*.sqlite3
+*.db
+node_modules/
+dist/
+coverage/
+logs/
